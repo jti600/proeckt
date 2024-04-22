@@ -1,0 +1,43 @@
+.fastest {
+  padding-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fastest__wrapper {
+  margin: 0 100px 0 100px;
+}
+
+.fastest__wrapper h3 {
+  width: 330px;
+  font-family: "Graphik";
+  font-weight: 300;
+  font-size: 48px;
+}
+.fastest__wrapper h3 span {
+  font-size: 20px;
+  font-weight: 700;
+  color: #252b42;
+}
+.fastest__wrapper p {
+  width: 530px;
+
+  font-family: "Graphik";
+  font-weight: 300;
+  font-size: 28px;
+  color: #374754;
+  margin-bottom: 100px;
+}
+.fastest__wrapper p span {
+  font-size: 20px;
+  font-weight: 700;
+  color: #252b42;
+}
+.fastest__wrapper input {
+  width: 273px;
+  background-color: #e8e8e8;
+  border-radius: 39px;
+  padding: 19px 39px;
+  color: #18171d;
+}
