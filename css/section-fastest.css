@@ -39,5 +39,10 @@
   background-color: #e8e8e8;
   border-radius: 39px;
   padding: 19px 39px;
+  margin-right: 20px;
+}
+input::-webkit-input-placeholder {
   color: #18171d;
+  font-size: 14px;
+  font-weight: 400;
 }
