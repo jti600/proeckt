@@ -1,0 +1,58 @@
+.footer {
+  background-color: #252b42;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .nav {
+  display: flex;
+
+  margin: 150px 0 150px 150px;
+}
+.footer .nav h3 {
+  font-family: "Graphik";
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+.footer .nav ul {
+  padding-left: 0;
+}
+.footer .nav ul li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+.footer .nav ul li a {
+  text-decoration: none;
+  font-family: "Graphik";
+  font-weight: 300;
+  font-size: 15px;
+  color: #fff;
+}
+.nav__pages {
+  margin-right: 139px;
+}
+.nav__pages:last-child {
+  margin-right: 210px;
+}
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+}
+.contackt__adres {
+  margin-bottom: 20px;
+  display: flex;
+
+  align-items: center;
+}
+.contackt__adres img {
+  margin-right: 10px;
+}
+.contackt__adres a {
+  text-decoration: none;
+  font-family: "Graphik";
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+}
