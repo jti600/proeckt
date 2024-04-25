@@ -57,3 +57,24 @@
   border-radius: 80px;
   box-shadow: -12px -12px 14px rgba(179, 179, 148, 0.5);
 }
+@media (max-width: 558px) {
+  .features {
+    margin-bottom: 90px;
+  }
+  .features__wrapper p {
+    width: 265px;
+  }
+  .features__wrapper-block {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .features__wrapper-block__block {
+    margin-right: 0;
+  }
+  .video iframe {
+    width: 385px;
+    height: 215px;
+    border-radius: 40px;
+  }
+}

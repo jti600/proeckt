@@ -1,15 +1,23 @@
 main {
+  width: 100%;
   background-image: url(../img/header_dg.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 1000px;
+  background-position: center;
+  height: 110vh;
   margin-bottom: 50px;
+  position: relative;
 }
 .header-section {
-  width: 1210px;
+  width: 69vw;
   height: 156px;
   margin: 0 auto;
   display: flex;
   align-items: center;
+  position: relative;
+}
+.burger {
+  display: none;
 }
 .main-menu {
   width: 437px;
@@ -41,7 +49,6 @@ main {
   margin-right: 20px;
 }
 .contener {
-  width: 1440px;
   margin: 0 auto;
   padding: 50px;
   display: flex;
@@ -81,4 +88,66 @@ button:hover {
   border: 1px solid #05325c;
   background-color: #05325c;
   color: #fff;
+}
+@media (max-width: 558px) {
+  main {
+    background-image: url(../img/background\ мов.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    height: 130vh;
+    margin-bottom: 50px;
+    position: relative;
+  }
+  .header-section {
+    width: 386px;
+    height: 78px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .main-menu {
+    display: none;
+  }
+  .sotseti {
+    display: none;
+  }
+  .burger {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    cursor: pointer;
+  }
+  .contener {
+    width: 370px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contener h1 {
+    width: 333px;
+    color: #fff;
+    font-family: "Graphik";
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+  }
+  .contener p {
+    width: 265px;
+    text-align: center;
+    color: #fff;
+    font-family: "Graphik";
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 69px;
+  }
+  .modil {
+    display: none;
+  }
 }

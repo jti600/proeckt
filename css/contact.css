@@ -105,3 +105,42 @@
 .map__set a:last-child {
   margin-right: 0;
 }
+.map__set .modil_tree {
+  display: none;
+}
+@media (max-width: 558px) {
+  .contact__wrapper {
+    flex-direction: column-reverse;
+  }
+  .wrapper__maps__contact {
+    flex-direction: column;
+  }
+  .maps__contact__adres {
+    flex-direction: row;
+  }
+  .map__set .modil_tree {
+    display: block;
+  }
+  .map__set {
+    margin-bottom: 60px;
+  }
+  .contact__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapper__form {
+    margin: 0;
+  }
+  .wrapper__form form {
+    padding: 49px 49px;
+    width: 278px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+  }
+}
