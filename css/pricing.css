@@ -106,3 +106,16 @@
 .activ .price span {
   color: #fff;
 }
+@media (max-width: 558px) {
+  .pricing > p {
+    width: 285px;
+  }
+  .pricing__wrapper {
+    height: 100%;
+    flex-direction: column;
+  }
+  .wrapper__item {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+}

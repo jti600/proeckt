@@ -40,3 +40,20 @@
 .partners button {
   margin: 80px 0 96px 0;
 }
+@media (max-width: 558px) {
+  .partners > p {
+    width: 378px;
+  }
+
+  .partners__wrapper {
+    width: 275px;
+  }
+  .partners__wrapper .modil {
+    display: none;
+  }
+  .partners__wrapper__item {
+    height: 151px;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 30px;
+  }
+}

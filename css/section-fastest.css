@@ -46,3 +46,39 @@ input::-webkit-input-placeholder {
   font-size: 14px;
   font-weight: 400;
 }
+@media (max-width: 558px) {
+  .fastest {
+    flex-direction: column;
+  }
+  .fastest__wrapper {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .fastest__wrapper p {
+    width: 265px;
+  }
+  .fastest__wrapper button {
+    margin-bottom: 59px;
+  }
+  .fastest__wrapper-foto img {
+    width: 378px;
+    height: 210px;
+  }
+  .fastest__wrapper form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fastest__wrapper form button {
+    margin-top: 12px;
+    width: 351px;
+  }
+  .fastest__wrapper input {
+    margin-right: 0;
+  }
+}
